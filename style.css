@@ -1,0 +1,288 @@
+
+
+/* Category card section  */
+
+.card-section {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-card {
+    width: 340px;
+    height: 200px;
+    background-color: rgb(42, 39, 39);
+    box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-image {
+    height: 80%;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-content {
+    color: white;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:415px) {
+    .main-card {
+        width: 160px;
+        height: 80px;
+    }
+    .card-content{
+        padding-top: 3px;
+    }
+
+    .card-section {
+        width: 100%;
+        margin: 10px 2px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-evenly;
+    }
+    .h3{
+        font-size: 0.75rem !important;
+    }
+}
+
+/* poster1 section  */
+.poster1{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+   
+}
+/* Treanding card section  */
+.trend-card-section {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trend-card {
+    width: 220px;
+    height: 350px;
+    box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.trend-card-image {
+    width: 100%;
+    height: 70%;
+}
+
+.trend-card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.trend-card-content {
+    padding: 4px;
+    text-align: center;
+}
+
+.trend-card-content h4 {
+    font-size: 1.2rem;
+    color: black;
+    padding: 3px;
+}
+
+.trend-card-content button {
+    font-size: 400;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid rgb(48, 48, 255);
+
+    transition: all 0.4s ease;
+}
+
+.trend-card-content button:hover {
+    background-color: rgb(48, 48, 255);
+    color: white;
+}
+
+@media (max-width:415px) {
+    .trend-card-section {
+        width: 100%;
+        margin: 10px 2px;
+        row-gap: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .trend-card {
+        width: 160px;
+        height: 240px;
+    }
+
+    .trend-card-content h4 {
+        font-size: 0.90rem;
+    }
+
+    .trend-card-content button {
+        font-size: 0.90rem;
+    } 
+   
+}
+
+
+
+/* new arrival section  */
+@media (max-width:415px){
+    .new-a-section{
+        flex-direction: column;
+        margin: 0px;
+        width: 95%;
+    }
+    .new-card{
+        display: block;
+        width: 100% !important;
+        height: 200px;
+    }
+}
+
+.new-a-section {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.new-card {
+    padding: 10px;
+    width: 45vw;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+.deal-of-day {
+    background-image: url(/img/E-m.jpg);
+    background-size: cover;
+    color: rgb(247, 243, 243);
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.offer1 {
+    background-image: url(/img/offer1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.deal-of-day h2 {
+    padding: 0px;
+    margin: 2px;
+}
+
+.deal-of-day h1 {
+    padding: 0px;
+    margin: 2px;
+}
+
+.deal-of-day span {
+    width: 150px;
+    text-align: center;
+    background-color: rgb(84, 78, 78);
+    color: white;
+    font-size: 0.87rem;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 3px;
+
+}
+
+/* service section  */
+
+@media (max-width:415px){
+    .service-section{
+        width: 100%;
+       text-align: center;
+        /* justify-content: space-evenly; */
+        gap: 10px;
+        
+    }
+    .service-card{
+        width: 100px;
+        height: 120px;
+    }
+}
+
+.service-section {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-card {
+    width: 340px;
+    height: 200px;
+    /* background-color: rgb(42, 39, 39); */
+    box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.service-card h4 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 0.5px black;
+}
+
+.service-card i {
+    font-size: 1.5rem;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 1.5px black);
+    color: white;
+}
+
+.service1 {
+    background-image: url(/img/free\ shiping.jpg);
+    background-size: cover;
+}
+
+.service2 {
+    background-image: url(/img/return.jpg);
+    background-size: cover;
+}
+
+.service3 {
+    background-image: url(/img/payment.JPG);
+    background-size: cover;
+}
+
+.service4 {
+    background-image: url(/img/24seven.jpg);
+    background-size: cover;
+}

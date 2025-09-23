@@ -1,0 +1,83 @@
+
+
+  .intro{
+                text-align: center;
+            }
+           
+            h4{
+                color: crimson;
+            }
+
+/* service section  */
+
+@media (max-width:415px){
+    .service-section{
+        width: 100%;
+       text-align: center;
+        /* justify-content: space-evenly; */
+        gap: 10px;
+        
+    }
+    .service-card{
+        width: 100px;
+        height: 120px;
+    }
+}
+
+.service-section {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-card {
+    width: 310px;
+    height: 200px;
+    /* background-color: rgb(42, 39, 39); */
+    box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.service-card h4 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 0.5px black;
+}
+
+.service-card i {
+    font-size: 1.5rem;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 1.5px black);
+    color: white;
+}
+
+.service1 {
+    background-image: url(/img/free\ shiping.jpg);
+    background-size: cover;
+}
+
+.service2 {
+    background-image: url(/img/return.jpg);
+    background-size: cover;
+}
+
+.service3 {
+    background-image: url(/img/payment.JPG);
+    background-size: cover;
+}
+
+.service4 {
+    background-image: url(/img/24seven.jpg);
+    background-size: cover;
+}
+.footer{
+    display: flex;
+}

@@ -1,0 +1,82 @@
+  /* Utility classes  */
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    /* background-color:  rgb(237, 234, 234) !important; */
+
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .primary-hover {
+    transition: all .3s ease !important;
+  }
+
+  .primary-hover:hover {
+    transform: scale(1.02);
+  }
+
+  .text-shadow {
+    text-shadow: 1px 1px 0.5px black;
+  }
+  .shadow{
+    box-shadow: 10px 10px 10px 1.5px black;
+  }
+
+  .card-headline {
+   
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .card-headline h2{
+     font-size: 1.5rem;
+  }
+
+  @media (max-width:415px) {
+    .card-headline h2 {
+      font-size: 1rem;
+    }
+  }
+
+  .likecount {
+    font-size: 0.60rem;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+    background-color: red;
+    clip-path: circle();
+  }
+
+  /* navbar  */
+  
+
+
+
+  /* footer section  */
+  .footer{
+    background-color: rgb(63, 63, 62) !important;
+    padding: 20px;
+    color: white !important;
+    
+  }
+  .margi {
+    margin-top: 20px !important;
+
+  }
+
+  .row h4 {
+    color: crimson;
+  }

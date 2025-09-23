@@ -1,0 +1,250 @@
+/* Category sections  */
+.category-section {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category-card {
+    width: 130px;
+    height: 130px;
+
+}
+
+.category-card-image {
+    height: 80%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.category-card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.category-card-content {
+    color: rgb(23, 23, 23);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3 {
+    color: black;
+    font-size: 0.87rem !important;
+
+}
+
+@media (max-width:415px) {
+    .category-card {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .h3 {
+        color: black;
+        font-size: 0.30rem !important;
+
+    }
+
+}
+/* mix card section  */
+.mix-card-section {
+    position: relative;
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+   background-color: white;
+   padding: 10px;
+}
+
+.mix-card {
+    position: relative;
+    height: 500px;
+    width: 330px;
+    /* background-color: red; */
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mix-card-image {
+    width: 100%;
+    height: 70%;
+}
+.mix-card-content {
+    padding: 5px;
+    width: 100%;
+    height: 30%;
+}
+.brand-name{
+    font-size: 1rem;
+    color: rgb(44, 41, 41);
+    padding:2px 3px;
+}
+.product-name{
+    font-size: 1rem;
+    color: black;
+    padding: 1px 3px;
+}
+.price{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.netprice{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    padding: 3px 3px;
+}
+.mrp{
+    font-size: 0.87rem;
+    text-decoration-line: line-through;
+    color: rgb(96, 94, 94);
+}
+.discount{
+    font-size: 0.92rem;
+    color: rgb(45, 214, 155) ;;
+}
+.delivery{
+    font-size: 0.87rem;
+    color: rgb(44, 41, 41);
+    padding: 1px 3px;
+}
+.rating{
+    font-size: bold;
+     color: rgb(240, 192, 71);
+    padding: 1px 5px;
+    padding: 1px ;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+.star{
+    color: rgb(240, 192, 71);
+    font-size: 0.80rem;
+}
+
+@media (max-width:415px) {
+    .mix-card-section {
+        justify-content: space-evenly;
+    }
+
+    .mix-card {
+        height: 300px;
+        width: 40%;
+    }
+}
+
+/* :horizontal card section  */
+.h-card-section{
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+}
+.h-card{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 5px;
+}
+.h-image{
+    height: 100%;
+    width: 25%;
+}
+.h-image img{
+    height: 100%;
+    width: 100%;
+}
+.h-content{
+  height: 100%;
+  width: 75%;
+}
+.h-content h4{
+  color: black;
+}
+.h-price{
+    margin-left: 2vw;
+    display: flex;
+    column-gap: 10px;
+}
+.h-rating{
+    display: flex;
+    gap: 2px;
+    /* font-size: bold; */
+     color: rgb(240, 192, 71);
+    padding: 1px 5px;
+    margin-left: 2vw;
+    border-radius: 5px;
+}
+.h-star{
+    /* width: 110px; */
+    padding: 0.5px 2px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 0.87rem;
+    background-color: rgb(3, 106, 37);
+}
+.h-star i{
+    font-size: 0.80rem;
+}
+.views{
+    font-size: 0.87rem;
+    color: rgb(48, 46, 46);
+}
+.left{
+    color: rgb(231, 8, 145);
+}
+@media (max-width:415px) {
+    .h-card-section{
+        width: 99%;
+        /* height:200px; */
+        font-size:2vw;
+        margin: 10px auto;
+        padding-top: 10px;
+        padding-botto: 10px;
+    }
+    .h-image{
+      width: 35%;
+    }
+    .h-image img{
+        height: 70%;
+    }
+    .h-content{
+        width: 65%;
+    }
+    .h-content h4{
+        font-size: 3.5vw;
+    }
+    .h-content ul{
+      font-size: 2vw;
+    }
+    .h-price{
+        font-size: 2.5vw;
+        flex-direction: column;
+    }
+    .h-star {
+        font-size: 2vw;
+    }
+    .h-star i{
+        font-size: 2vw;
+    }
+    .views{
+        font-size: 2vw;
+    }
+}

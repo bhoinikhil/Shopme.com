@@ -1,0 +1,226 @@
+/* card section  */
+
+.category-section {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category-card {
+    width: 130px;
+    height: 130px;
+
+}
+
+.category-card-image {
+    height: 80%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.category-card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.category-card-content {
+    color: rgb(23, 23, 23);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3 {
+    color: black;
+    font-size: 0.87rem !important;
+
+}
+
+@media (max-width:415px) {
+    .category-card {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .h3 {
+        color: black;
+        font-size: 0.30rem !important;
+
+    }
+
+}
+
+/* Trending section  */
+.trend-card-section {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trend-card {
+    width: 220px;
+    height: 350px;
+    box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.trend-card-image {
+    width: 100%;
+    height: 70%;
+}
+
+.trend-card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.trend-card-content {
+    padding: 4px;
+    text-align: center;
+}
+
+.trend-card-content h4 {
+    font-size: 1.2rem;
+    color: black;
+    padding: 3px;
+}
+
+.trend-card-content button {
+    font-size: 400;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid rgb(48, 48, 255);
+
+    transition: all 0.4s ease;
+}
+
+.trend-card-content button:hover {
+    background-color: rgb(48, 48, 255);
+    color: white;
+}
+
+@media (max-width:415px) {
+    .trend-card-section {
+        width: 95%;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .trend-card {
+        width: 160px;
+        height: 240px;
+    }
+
+    .trend-card-content h4 {
+        font-size: 0.90rem;
+    }
+
+    .trend-card-content button {
+        font-size: 0.90rem;
+    }
+}
+
+/* mix card section  */
+.mix-card-section {
+    position: relative;
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.mix-card {
+    position: relative;
+    height: 500px;
+    width: 330px;
+    /* background-color: red; */
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mix-card-image {
+    width: 100%;
+    height: 70%;
+}
+.mix-card-content {
+    padding: 5px;
+    width: 100%;
+    height: 30%;
+}
+.brand-name{
+    font-size: 1rem;
+    color: rgb(44, 41, 41);
+    padding:2px 3px;
+}
+.product-name{
+    font-size: 1rem;
+    color: black;
+    padding: 1px 3px;
+}
+.price{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.netprice{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    padding: 3px 3px;
+}
+.mrp{
+    font-size: 0.87rem;
+    text-decoration-line: line-through;
+    color: rgb(96, 94, 94);
+}
+.discount{
+    font-size: 0.92rem;
+    color: rgb(45, 214, 155) ;;
+}
+.delivery{
+    font-size: 0.87rem;
+    color: rgb(44, 41, 41);
+    padding: 1px 3px;
+}
+.rating{
+    /* width: 100px; */
+    font-size: bold;
+     color: rgb(240, 192, 71);
+    padding: 1px 5px;
+    /* background-color:rgb(45, 214, 155) ; */
+    padding: 1px ;
+    /* text-align: center; */
+    margin-left: 3px;
+    border-radius: 5px;
+}
+.star{
+    color: rgb(240, 192, 71);
+    font-size: 0.80rem;
+}
+
+@media (max-width:415px) {
+    .mix-card-section {
+        justify-content: space-evenly;
+    }
+
+    .mix-card {
+        height: 300px;
+        width: 40%;
+    }
+}

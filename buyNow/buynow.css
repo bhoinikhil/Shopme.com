@@ -1,0 +1,175 @@
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    background-color: rgb(237, 234, 234) !important;
+
+  }
+  .footer{
+    color: white;
+  }
+.main-section {
+    position: relative !important;
+}
+@media (max-width:415px) {
+    .mainimage{
+        height: 350px;
+    }
+}
+.left-section {
+    position: sticky !important;
+    top: 60px;
+}
+
+.btn button {
+    color: white;
+    background-color: orange;
+    font-size: 1rem;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 0.3px black;
+    transition: all 0.5s linear ;
+}
+.btn button:hover{
+    background-color: crimson;
+    
+}
+@media (max-width:415px){
+    .left-section button{
+        height: 100%;
+        width: 100%;
+    }
+}
+.smallimage {
+    margin-top: 10px !important;
+    width: 100%;
+}
+
+
+.price-section {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mrp {
+    margin-left: 10px;
+    text-decoration-line: line-through;
+    color: rgb(96, 94, 94);
+}
+
+.off {
+    margin-left: 10px;
+    font-size: 0.92rem;
+    color: rgb(45, 214, 155);
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 0.87rem;
+    border-radius: 5px;
+    padding: 1px 10px;
+    background-color: green;
+    color: white;
+}
+
+.reviews {
+    color: rgb(96, 94, 94);
+    margin-left: 10px;
+    font-size: 0.87rem;
+}
+
+.color-section {
+    margin-top: 30px;
+    color: black;
+    font-weight: 500;
+    height: 80px;
+    display: flex;
+    column-gap: 50px;
+    
+}
+@media (max-width:766px){
+   .color-section{
+     height: 40px;
+   }
+}
+
+.color-section img {
+    height: 100%;
+    margin-left: 20px;
+}
+
+.size-section {
+    margin-top: 30px;
+    color: black;
+    font-weight: 500;
+    height: 80px;
+    display: flex;
+    column-gap: 50px;
+    
+}
+.sizes{
+    display: flex;
+    gap: 10px;
+}
+
+.size {
+    background-color: white;
+    border: 1px solid black;
+    padding: 3px 3px;
+    margin-left: 20px;
+    height: 30px;
+    width: 34px;
+    text-align: center;
+    border-radius: 2px;
+    transition: all 0.3s ease-in;
+}
+.size:hover{
+    color: white;
+    background-color:crimson;
+}
+
+.coupen-section h6 {
+    font-size: 1rem;
+    color: black;
+}
+
+.coupen-section i {
+    color: green;
+}
+
+.bankOffer-section i {
+    color: green;
+}
+
+.coupen-section p {
+    font-size: 0.87rem;
+    color: black;
+}
+
+.bankOffer-section p {
+    font-size: 0.87rem;
+    color: black;
+}
+
+.bankOffer-section h6 {
+    font-size: 1rem;
+    color: black;
+}
+.productDetails td{
+   padding-left: 80px;
+}
